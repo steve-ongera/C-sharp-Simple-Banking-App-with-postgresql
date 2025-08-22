@@ -35,6 +35,11 @@ A C# console application that provides basic banking functionality including acc
 - CREATE DATABASE simple_bank
 - \c simple_bank
 
+```sql
+INSERT INTO bank_users (username, password, balance) VALUES
+('steve', '1234', 1000.00),
+('john', 'abcd', 500.00);
+```
 
 ## Database Setup
 
